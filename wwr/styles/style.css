@@ -50,17 +50,23 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
   }
 .hero {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.hero-msg {
+    text-align: center
 }
 .logo, .icon {
     width: 80px;
 }
-.card-img {
+. {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    }
+.card-img {
     width: 40%;
 }
 h1, h2 {

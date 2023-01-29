@@ -49,7 +49,7 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   }
-.hero {
+.hero-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -85,8 +85,7 @@ h4, p {
     padding: 1em;
   }
 .msg {
-    background-color: var(--paragraph-background-color);
-    color: var(--paragraph-color-on-color);
+    background-color: var(--nav-background-color);
     line-height: 2em;
     text-align: center;
     font-size: 1.2em;

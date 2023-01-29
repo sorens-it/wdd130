@@ -11,8 +11,8 @@
     --headline-color-on-white: #084C61;
     --headline-color-on-color: #E7DFC6; 
     --paragraph-color-on-white: #084C61;  
+    --paragraph-background-color: #084C61;
     --paragraph-color-on-color: #E7DFC6; 
-    --paragraph-background-color: #084C61  ;
     --nav-link-color: #E7DFC6;
     --nav-background-color: #306B34;
     --nav-hover-link-color: #E7DFC6;
@@ -69,9 +69,15 @@ nav a:hover {
 .card-img {
     width: 40%;
 }
+.icon {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
+    text-align: center
 }
 h4, p {
     font-family: var(--paragraph-font);
@@ -79,7 +85,8 @@ h4, p {
     padding: 1em;
   }
 .msg {
-    background-color: var(--nav-background-color);
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
     line-height: 2em;
     text-align: center;
     font-size: 1.2em;
@@ -89,8 +96,6 @@ footer {
     line-height: 1em;
     text-align: left;
     font-size: 1.2em;
-}
-footer a:hover {
     text-decoration: none;
 }
 a.book, a.join, a:hover {
@@ -101,8 +106,11 @@ a.book, a.join, a:active {
     text-decoration: none;
     background-color: #084C61
 }
-
 .background {
     height: 725px;
-    width: 725px;
+    background-color: #084C61
+    
+}
+.hyper, a:hover {
+    text-decoration: none
 }

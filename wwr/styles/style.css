@@ -30,6 +30,7 @@ nav{
     background-color: var(--nav-background-color);
     line-height: 3em;
     text-align: center;
+    font-family: var(--heading-font)
     font-size: 1.2em;
   }
 nav  {

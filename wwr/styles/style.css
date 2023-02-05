@@ -24,7 +24,7 @@
 
 /* Content & Body Setup */
 #content {
-    max-width: 1600px;
+    max-width: none;
     text-align: center;
     background-color: #E7DFC6;
     font-family: Amarante, Comfortaa, sans-serif;

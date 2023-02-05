@@ -23,7 +23,7 @@
   }
 
 /* Content & Body Setup */
-body {
+#content {
     max-width: 1600px;
     text-align: center;
     background-color: #E7DFC6;

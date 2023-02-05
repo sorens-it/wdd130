@@ -1,4 +1,7 @@
+/* Font Information */
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Comfortaa&display=swap');
+
+/* Color Setup */
 :root {
     --primary-color: #084C61  ;
     --secondary-color: #306B34 ;
@@ -18,18 +21,25 @@
     --nav-hover-link-color: #E7DFC6;
     --nav-hover-background-color: #084C61;
   }
-  
+
+/* Content & Body Setup */
 #content {
     max-width: 1600px;
-    margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
     text-align: center;
   }
+body {
+    background-color: #E7DFC6;
+    font-family: Amarante, Comfortaa, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navagation */
 nav{
     background-color: var(--nav-background-color);
     line-height: 3em;
-    font-family: var(--heading-font)
+    font-family: var(--heading-font);
     text-align: center;
     font-size: 1.2em;
   }
@@ -38,18 +48,23 @@ nav  {
     display: flex;
   }
 nav a {
-    padding:1em;
-    min-width: 120px;
     text-decoration: none;
-    padding: 10px;
-  }
+    text-align: center;
+    padding: 35px;
+}
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
-  }
+}
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-  }
+}
+
+/* HERO section and image */
+.hero {
+    margin-bottom: 100px;
+    border-bottom: 3px solid #bbb;
+}
 #hero-img {
     display: block;
     margin-left: auto;
@@ -57,10 +72,37 @@ nav a:hover {
     width: 100%;
 }
 #hero-msg {
-    text-align: center
+    text-align: center;
 }
-.icon {
-    width: 80px;
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+/* Book and Join Links */
+
+.book, .join {
+    background-color: #084C61;
+    color: black;
+    font-family: var(--heading-font);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+a.book, a.join, a:hover {
+    text-decoration: none;    
+    color:  #E7DFC6
+}
+a.book, a.join, a:active {
+    text-decoration: none;
+}
+
+/* Card-Images and Icons */
+
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 .card-img {
     display: block;
@@ -69,48 +111,75 @@ nav a:hover {
     }
 .card-img {
     width: 40%;
+    border: 10px solid #306B34;
 }
 .icon {
+    width: 80px;
+    padding-top: 10px;
     display: block;
     margin-right: auto;
     margin-left: auto;
 }
+.mountains {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+/* H1, H2, H4, P Settings*/
+
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
     text-align: center
+}
+h2 {
+    margin: 0;
 }
 h4, p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-white);
     padding: 1em;
   }
-.msg {
-    background-color: var(--nav-background-color);
-    line-height: 2em;
+
+/* Message Settings */
+
+.msg, .hed2, .p2 {
+    background-color: #306B34;
+    color: #E7DFC6;
+    line-height: 1.5em;
     text-align: center;
-    font-size: 1.2em;
+    padding: 35px;
 }
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+/* Footer*/
+
 footer {
-    background-color: var(--nav-background-color);
+    background-color: #306B34;
+    margin-top: 200px;
+    padding: 25px 50px;
     line-height: 1em;
     text-align: left;
-    font-size: 1.2em;
+    font-size: 1em;
     text-decoration: none;
 }
-a.book, a.join, a:hover {
-    text-decoration: none;    
-    color:  #E7DFC6
+.p3 {
+    color: #E7DFC6;
 }
-a.book, a.join, a:active {
-    text-decoration: none;
-    background-color: #084C61
-}
-#background {
-    height: 725px;
-    background-color: #084C61
-    
+footer .social img {
+    padding-top: 15px;
 }
 .hyper, a:hover {
     text-decoration: none
+}
+
+/* Background Section */
+
+#background {
+    height: 725px;
+    background-color: #084C61;
+    padding-bottom: 25px; 
 }

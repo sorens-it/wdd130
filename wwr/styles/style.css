@@ -163,7 +163,7 @@ a.book, a.join, a:active {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: repeat (10, 1fr)
+    grid-template-columns: repeat(10,1fr);
 }
 .river-card {
     grid-column: 2/4;

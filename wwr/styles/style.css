@@ -135,8 +135,8 @@ a.book, a.join, a:active {
 
 /* Card-Images and Icons */
 
-.river-card, .camping-card, .rapids-card {
-    margin: 200px 0;
+.rivers-card, .camping-card, .rapids-card {
+    margin: 80px 0;
 }
 .card-img, .mountains {
     width: 100%;
@@ -147,7 +147,7 @@ a.book, a.join, a:active {
     margin-right: auto;
     }
 .card-img {
-    width: 30%;
+    width: 100%;
     border: 10px solid #306B34;
 }
 .icon {
@@ -165,7 +165,7 @@ a.book, a.join, a:active {
     display: grid;
     grid-template-columns: repeat(10,1fr);
 }
-.river-card {
+.rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
 }

@@ -275,7 +275,7 @@ footer {
     background-color: #084C61;
     padding-bottom: 25px; 
 }
-/* Style inputs with type="text", select elements and textareas */
+/* Style inputs with type="text" */
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 

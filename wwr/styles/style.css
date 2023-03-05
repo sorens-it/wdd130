@@ -79,11 +79,11 @@ nav a:hover {
     margin-bottom: 100px;
     border-bottom: 3px solid #bbb;
 }
-
 #hero-msg {
     text-align: center;
 }
 .home-title {
+    color: #E7DFC6;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -224,8 +224,10 @@ h4, p {
   }
 
 /* Message Settings */
-
-.msg, .hed2, .p2 {
+.msg {
+    color: #E7DFC6;
+}
+.msg, .hed2, .p2, .h2 {
     background-color: #306B34;
     color: #E7DFC6;
     line-height: 1.5em;
@@ -233,6 +235,7 @@ h4, p {
     padding: 35px;
 }
 .msg p {
+    color: #E7DFC6;
     font-size: .8em;
     padding-bottom: 15px;
 }

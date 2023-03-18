@@ -8,23 +8,26 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <!-- Header Start -->
     <header class="site-header">
-        <div class="site-header-wrapper">
-            <a href="#">
+        <div class="wrapper site-header-wrapper">
+            <a href="logo">
                 <img class="logo" src="images/CoverPhoto.png" alt="Sublimely Yours"
                 width="600">
             </a>
             <nav class="nav">
-            <ul class="nav-wrapper">
-                <li class="nav__item"><a href="index.html">Home</a></li>
-                <li class="nav__item"><a href="aboutus.html">About Us</a></li>
-                <li class="nav__item"><a href="ourproducts.html">Our Products</a></li>
-                <li class="nav__item"><a href="contactus.html">Contact Us</a></li>
-            </ul>
+                <ul class="nav-wrapper">
+                    <li class="nav__item"><a href="index.html">Home</a></li>
+                    <li class="nav__item"><a href="aboutus.html">About Us</a></li>
+                    <li class="nav__item"><a href="ourproducts.html">Our Products</a></li>
+                    <li class="nav__item"><a href="contactus.html">Contact Us</a></li>
+                </ul>
             </nav>
-            </div>
-        </header>
-        <div class="slideshow-container">
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Slideshow Start -->
+    <div class="slideshow-container">
 
             <div class="mySlides fade">
               <img src="images/slideshow/Banners_-_Slideshow.PNG" style="width:100%" alt="banner1">
@@ -40,16 +43,19 @@
           
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          </div>
+    </div>
           <br>
           
-          <div style="text-align:center">
+        <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
-          </div>
-        <div id="home-msg" class="home-msg">
-           <h1 class="cover-title">Fresh Prints Pressed Daily</h1>
+        </div>
+    <!-- Slidshow End -->
+    
+    <br>
+    <div id="home-msg" class="home-msg">
+        <h1 class="cover-title">Fresh Prints Pressed Daily</h1>
             <p>
             Welcome to Sublimely Yours, the leading sublimation company that specializes in creating personalized products that capture your most cherished memories and help you make a statement with your small business or special event.
             </p>
@@ -65,7 +71,7 @@
             <p>
             At Sublimely Yours, we take pride in our work and are committed to making your experience with us a positive one. We believe that everyone deserves to have personalized items that reflect their personality and style, and we're here to help you achieve that. Thank you for choosing Sublimely Yours as your sublimation company, and we look forward to helping you create something truly special.
             </p>
-        </div> 
+    </div> 
             <div id="blanks" class="blanks">
                 <img id="blanks-img" class="blanks-img" src="images/blanks.jpg" alt="Blanks"
                     width="400">
@@ -86,6 +92,6 @@
                 </a>
             </div>
         </footer>
-        <script src="js/style.js"></script>
+    <script src="js/style.js"></script>
 </body>
 </html>

@@ -41,7 +41,7 @@ img {
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
+  font-family: "Exo 2", Helvetica, fantasy;
   color: var(--headline-color-on-white);
 }
 h2 {
@@ -100,7 +100,7 @@ p.colored {
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #86B05F;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -118,11 +118,11 @@ nav a {
 
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: #2E4625;
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: #FBFAD2;
+  background-color: #2E4625;
 }
 
 .sitemap {

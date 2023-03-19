@@ -49,13 +49,13 @@
 
 nav {
     background-color: #86B05F;
-    line-height: 5em;
+    line-height: 3em;
     text-align: center;
     font-size: 1.5em;
   }
   nav  {
     list-style-type: none;
-    display: flex;
+    display: relative;
   
   }
 
@@ -63,7 +63,7 @@ nav {
     padding:1em;
     min-width: 120px;
     text-decoration: none;
-    padding: 10px;
+    padding: 8px;
   
   }
   nav a:link, nav a:visited {
@@ -81,7 +81,7 @@ nav {
         max-width: 1000px;
         position: relative;
         margin: auto;
-        padding-top: 8rem;
+        padding-top: 2rem;
     }
     
 /* Hide the images by default */

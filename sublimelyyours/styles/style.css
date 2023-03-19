@@ -170,7 +170,9 @@ nav {
         from {opacity: .4}
         to {opacity: 1}
     }
-
+    .grid-title {
+        text-align: center;
+    }
 /* Home Grid */
     .home-grid {
         display: grid;

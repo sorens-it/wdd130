@@ -55,9 +55,7 @@ nav {
   }
   nav  {
     list-style-type: none;
- 
   }
-
   nav a {
     padding:1em;
     min-width: 120px;
@@ -71,7 +69,15 @@ nav {
   nav a:hover {
     color: #FBFAD2;
     background-color: #2E4625;
+  }
+  navwww {
+    position: absolute;
+    transition: top 0.3s;
+    float: center;
+    display: block;
+    text-decoration: none;
   }  
+
   
 *{box-sizing:border-box}
 
@@ -186,6 +192,7 @@ nav {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        position: relative;
     }
     .photo-one {
         grid-column: 2/4;
@@ -219,6 +226,7 @@ nav {
         grid-column: 11/13;
         grid-row: 5/3;
     }
+
 /* Home Message */
 p.colored {
     background-color: #2E4625;
@@ -234,6 +242,32 @@ p.colored {
     font-size: 18px;
     text-align: center;
   }
+/* About Page */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.heatp {
+    float: left;
+    width: 300px;
+}
+.aboutus {
+    float: center;
+    width: 1000px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #2E4625;
+
+}
+
+.merch {
+    float: right;
+    width: 300px;
+}
+
+
 /* Footer */
     footer {
         background-color: #86B05F;
